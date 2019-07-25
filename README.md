@@ -6,7 +6,7 @@ This UK postcode validation and formatting library provides 3 classes that you c
 ### Outward
 
 Example:
-```ipython
+```python
 In [1]: outward = Outward('EC1A') # Raises InvalidOutward, InvalidOutwardArea or InvalidOutwardDistrict exceptions
 In [2]: outward
 Out[3]: 'EC1A'
@@ -19,7 +19,7 @@ Out[7]: '1A'
 ### Inward
 
 Example:
-```ipython
+```python
 In [1]: inward = Inward('1BB') # Raises InvalidInwardSector or InvalidInwardUnit exceptions
 In [2]: inward
 Out[3]: '1BB'
@@ -32,7 +32,7 @@ Out[7]: 'BB'
 ### UKPostcode
 
 Example 1:
-```ipython
+```python
 In [1]: ukpc = UKPostcode('ec1A1bb') # Raises InvalidOutward, InvalidOutwardArea, InvalidOutwardDistrict, InvalidInwardSector or InvalidInwardUnit exceptions
 In [2]: ukpc
 Out[3]: 'EC1A 1BB'
@@ -45,7 +45,7 @@ Out[7]: '1BB'
 OR
 
 Example 2:
-```ipython
+```python
 In [1]: UKPostcode.validate_postcode('ec1A1bb')
 Out[2]: True
 In [4]: UKPostcode.validate_postcode('ec1A1b0')
