@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+/.eggs
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
