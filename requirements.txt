@@ -1,4 +1,4 @@
 ipdb==0.12
-ipython==7.5.0
+ipython==7.16.3
 coverage==4.5.3
 coverage-badge==1.0.1
